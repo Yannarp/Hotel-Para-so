@@ -1,0 +1,39 @@
+.container{
+    background-color: #ccc;
+    height: 500px;
+    display: flex;
+    
+    flex-direction: row;
+    /* column, row-reverse, column-reverse */
+    
+    flex-wrap: nowrap;
+    /* wrap, nowrap */
+    
+    flex-flow: row nowrap; 
+    /* Forma resumida de escrever o FLEX-DIRECTION e FLEX-WRAP. */ 
+
+    justify-content: flex-start;
+    /* flex-start, flex-end, center, space-betwen, space-around */
+    
+    align-items: stretch;
+    /* stretch, flex-start, flex-end, center, baseline */
+
+    align-content: stretch;
+    /* stretch, flex-start, flex-end, center, space-between, space-around */
+
+
+}
+.item{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 80px;
+}
+
+.article-01{order: 3;}
+.article-02{order: 1;}
+.article-03{order: 2; align-self: center ;} 
+
+/* aling-self: center
+center, flex-start, flex-end, baseline, stretch, auto(valor padrão) 
