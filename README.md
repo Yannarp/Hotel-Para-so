@@ -3,4 +3,4 @@
 </div>
 
 
-<p align="center"><i>Este projeto foi criado com intuito de pôr em prática os conceitos estudados em Flexbox, layout flexível permite que os elementos responsivos dentro de um contêiner sejam organizados automaticamente, dependendo do tamanho da tela.</i></p>
+<p align="center"><i>This project was created with the intention of putting into practice the concepts studied in Flexbox, flexible layout allows the responsive elements inside a container to be automatically organized, depending on the screen size.</i></p>
